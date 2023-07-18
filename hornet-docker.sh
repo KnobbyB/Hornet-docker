@@ -8,6 +8,9 @@ sudo apt install docker-ce -y
 sudo apt update && sudo apt upgrade -y
 mkdir hornet
 cd hornet
-curl -L -O https://github.com/iotaledger/node-docker-setup/releases/download/v1.0.0-rc.8/node-docker-setup_chrysalis-v1.0.0-rc.8.tar.gz
-tar -zxf node-docker-setup_chrysalis-v1.0.0-rc.8.tar.gz
-sudo rm node-docker-setup_chrysalis-v1.0.0-rc.8.tar.gz
+
+curl -L -O https://github.com/iotaledger/node-docker-setup/releases/download/v1.0.0-rc.15/node-docker-setup_chrysalis-v1.0.0-rc.15.tar.gz
+
+
+tar -zxf node-docker-setup_chrysalis-v1.0.0-rc.15.tar.gz
+sudo rm node-docker-setup_chrysalis-v1.0.0-rc.15.tar.gz
