@@ -9,6 +9,6 @@ sudo apt install docker-ce -y
 sudo apt update && sudo apt upgrade -y
 mkdir hornet
 cd hornet
-curl -L -O "https://github.com/iotaledger/node-docker-setup/releases/download/v1.0.0-rc.5/node-docker-setup_chrysalis-v1.0.0-rc.5.tar.gz"
-tar -zxf node-docker-setup_chrysalis-v1.0.0-rc.5.tar.gz
-sudo rm node-docker-setup_chrysalis-v1.0.0-rc.5.tar.gz
+curl -L -O https://github.com/iotaledger/node-docker-setup/releases/download/v1.0.1/node-docker-setup_stardust-v1.0.1.tar.gz
+tar -zxf node-docker-setup_stardust-v1.0.1.tar.gz
+sudo rm node-docker-setup_stardust-v1.0.1.tar.gz
