@@ -7,8 +7,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 sudo apt update
 sudo apt install docker-ce -y
 sudo apt update
-mkdir hornet
-cd hornet
-curl -L -O https://github.com/iotaledger/node-docker-setup/releases/download/v1.0.1/node-docker-setup_stardust-v1.0.1.tar.gz
-tar -zxf node-docker-setup_stardust-v1.0.1.tar.gz
-sudo rm node-docker-setup_stardust-v1.0.1.tar.gz
+wget https://github.com/iotaledger/node-docker-setup/archive/refs/tags/v1.0.2.tar.gz
+tar -zxf v1.0.2.tar.gz
+rm v1.0.2.tar.gz
