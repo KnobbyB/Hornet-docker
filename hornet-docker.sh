@@ -10,3 +10,6 @@ sudo apt update
 wget https://github.com/iotaledger/node-docker-setup/archive/refs/tags/v1.0.2.tar.gz
 tar -zxf v1.0.2.tar.gz
 rm v1.0.2.tar.gz
+rm hornet-docker.sh
+mv /root/node-docker-setup-1.0.2/stardust /root
+rm -rf  node-docker-setup-1.0.2 
